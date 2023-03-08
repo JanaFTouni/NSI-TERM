@@ -1,0 +1,9 @@
+CREATE TABLE usager ( 
+	nom VARCHAR(90),
+	prenom VARCHAR(90),
+	adresse VARCHAR(300),
+	cp VARCHAR(5), 
+	ville VARCHAR(60),
+	email VARCHAR(60),
+	code_barre CHAR(15) PRIMARY KEY
+	)
