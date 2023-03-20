@@ -27,4 +27,9 @@ class Chrono(object) :
 class CompteARebours(Chrono):
     def tac(self):
         self._temps += 1
+
+    def __str__(self):
+        h, m, s = self._conversion()
+        return f"Il ne reste plus que {h}h {m}min {s}sec"
+        
         
