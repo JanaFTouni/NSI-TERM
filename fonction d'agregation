@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS total -- AVG , SUM, MIN et MAX
+FROM livre
+WHERE titre LIKE '%Astérix%';
