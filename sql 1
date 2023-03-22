@@ -1,0 +1,3 @@
+SELECT titre
+FROM livre
+WHERE editeur = 'Dargaud' AND  1970 <= annee AND annee <= 1980 ;
