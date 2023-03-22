@@ -1,0 +1,4 @@
+SELECT titre 
+FROM livre
+WHERE annee >= 1990
+ORDER BY titre ASC ; -- decroissant DESC 
