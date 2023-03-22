@@ -1,0 +1,3 @@
+SELECT DISTINCT annee
+FROM livre
+ORDER BY annee ASC;
