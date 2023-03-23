@@ -1,0 +1,5 @@
+SELECT livre.titre, emprunt.retour, usager.nom, usager.prenom
+FROM emprunt
+	JOIN livre ON emprunt.isbn = livre.isbn
+	JOIN usager ON emprunt.code_barre = usager.code_barre
+WHERE emprunt.retour < '2020-02-01';
