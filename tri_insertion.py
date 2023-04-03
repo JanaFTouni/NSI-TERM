@@ -12,3 +12,4 @@ def tri(tab: list) -> None:
         # invariant : tab[0..i[ est trié
         tmp = tab[i]
         insere(tab, i, tmp)
+
