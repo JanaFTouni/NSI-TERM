@@ -1,0 +1,13 @@
+{ "titre" : "Crepes sucrees", 
+  "difficulte" : "facile",
+  "temps": {"unite": "min", "valeur": "1h"},
+  "note":{ "pour 10 crepes"},
+  "ingredients": [
+  {"nom": "farine", "q": {"unite": "g", "valeur": 200}} , 
+  {"nom": "sucre", "q": {"unite": "g", "valeur": 40}} ,
+  {"nom": "oeufs", "q": {"unite": "", "valeur": 2}} ,
+  {"nom": "lait", "q": {"unite": "cl", "valeur": 40}} 
+  ],
+  "etapes": ["melanger les ing solides","ajouter les ing liquides", "laisser reposer", "cuire sur une poele burree"]
+
+}
