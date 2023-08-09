@@ -1,0 +1,17 @@
+<recette difficulte = "facile">
+	<titre>Crepes sucres</titre>
+	<temps>1h</temps>
+	<note>pour 10 crepes</note>
+	<ingredients>
+		<i q ="260g"> farine</i> 
+		<i q ="40g"> sucre</i> 
+		<i q ="2"> oeufs</i> 
+		<i q ="48g"> lait </i> 
+	</ingredients>	
+	<etapes>
+		<e> melanger les ing solides </e>
+		<e> ajouter les ing liquides </e>
+		<e> laisser reposer </e>
+	</etapes>
+	
+</recette>
